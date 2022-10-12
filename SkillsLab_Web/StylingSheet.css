@@ -1,0 +1,99 @@
+body{
+    background-image: url("Image/wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Logo{
+    margin-left: 26%;
+    padding-bottom: 10px;
+}
+
+.FeedbackFormContainer {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+}
+
+.RadioContainer{
+    flex-direction: column;
+}
+
+.CheckContainer{
+    flex-direction: column;
+}
+
+.ContainerSpace{
+    margin-bottom: 20px;
+}
+
+#MainTitle{
+    color: darkblue;
+    font-family: cursive;
+}
+#Title{
+    font-size: 20px;
+    color:darkblue;
+    font-family: cursive;
+}
+.SelectOption{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.Text {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+.TextArea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#button{
+    margin-left: auto;
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    color: white;
+    background-color: royalblue;
+    font-size: 20px;
+    font-family: cursive;
+    margin-left: 40%;
+}
+
+#button:hover{
+    background-color: darkblue;
+}
+
+#Rating{
+    font-family: cursive;
+    font-size: 20px;
+    color: royalblue;
+}
+#Suggestion{
+    font-family: cursive;
+    font-size: 20px;
+    color: royalblue;
+}

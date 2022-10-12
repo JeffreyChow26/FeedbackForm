@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="StylingSheet.css">
+</head>
+
+
+
+<html>
+    <body>
+       <Form>
+            
+            <Div class="FeedbackFormContainer">
+
+                <img id="Logo" src="Image/CeridianLogo.png" alt="Ceridian Logo" style="width:370px;height:80px;">
+
+                <h1 id="MainTitle">FeedbackForm</h1>
+
+                <label for="name" id="Title">Name </label>
+                <input class="Text" placeholder="Enter your name" name="username">  
+
+
+                <label for="email" id="Title">Email</label>
+                <input class="Text" Placeholder="Enter your email" name="email">
+
+                <label for="department" id="Title">Choose your department</label>
+                <select class="SelectOption" id="department" name="department">
+                    <option value="department1">Product and Technology</option>
+                    <option value="department2">Customer Support</option>
+                    <option value="department3">Human Resource</option>
+                    <option value="department4">Other</option>
+                </select>
+                
+                <div class="ContainerSpace">
+                    <label for="rating" id="Title">Rate your Cerdian experience</label>
+                    <div class="RadioContainer">
+                        <input type="radio" id="1" name="rating" value="1">
+                        <label id="Rating" for="rating1">1</label>
+                    </div>
+                    
+                    <div class="RadioContainer">
+                        <input type="radio" id="2" name="rating" value="2">
+                        <label id="Rating" for="rating2">2</label>
+                    </div>
+                    
+                    <div class="RadioContainer">
+                        <input type="radio" id="3" name="rating" value="3">
+                        <label id="Rating" for="rating3">3</label>
+                    </div>
+
+                    <div class="RadioContainer">
+                        <input type="radio" id="4" name="rating" value="4">
+                        <label id="Rating" for="rating4">4</label>
+                    </div>
+                    
+                    <div class="RadioContainer">
+                        <input type="radio" id="5" name="rating" value="5">
+                        <label id="Rating" for="rating5">5</label>
+                    </div>
+                </div>
+                
+                <div class="ContainerSpace">
+                    <label for="Suggestion" id="Title">Suggestion for improvement for new batch</label></br>
+                    <div class="CheckContainer">
+                        <input type="checkbox" id="suggestion1" name="suggestion1" value="suggestion1">
+                        <label id="Suggestion" for="rating1">More labs/ Assignments</label> 
+                    </div>
+
+                    <div class="CheckContainer">
+                        <input type="checkbox" id="suggestion2" name="suggestion2" value="suggestion2">
+                        <label id="Suggestion" for="rating2">More self learning sessions</label>
+                    </div>
+
+                    <div class="CheckContainer">
+                        <input type="checkbox" id="suggestion3" name="suggestion3" value="suggestion3">
+                        <label id="Suggestion" for="rating3">More food (especially pizza)</label>
+                    </div>
+
+                    <div class="CheckContainer">
+                        <input type="checkbox" id="suggestion4" name="suggestion4" value="suggestion4">
+                        <label id="Suggestion" for="rating4">More complex training sessions</label>
+                    </div>
+
+                    <div class="CheckContainer">
+                        <input type="checkbox" id="suggestion5" name="suggestion5" value="suggestion5">
+                        <label id="Suggestion" for="rating5">More labs/ Assignments</label>
+                    </div>
+                </div>
+
+                <label for="comment" id="Title">comment/suggestion</label>
+                <textarea class="TextArea" id="comment" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <button id="button" type="submit">Submit</button>   
+            </Div>
+       </Form>
+
+    </body>
+</html>
